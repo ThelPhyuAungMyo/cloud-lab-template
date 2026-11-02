@@ -1,0 +1,397 @@
+== STEP 2: SIZE PROOF ==
+2026-11-02T07:06:46Z
+--- building SINGLE-stage (expect 2-4 minutes) ---
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.single
+#1 transferring dockerfile: 365B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:20
+#2 ...
+
+#3 [auth] library/node:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:20
+#2 DONE 2.2s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 137B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#5 resolve docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5 0.0s done
+#5 DONE 0.2s
+
+#6 [internal] load build context
+#6 transferring context: 39.24kB 0.0s done
+#6 DONE 0.1s
+
+#5 [1/4] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#5 sha256:0b22ec2d9b1a1a0e906e301b5ef08efe7774d5fc001b9cfa08e4e980152a0357 0B / 448B 0.2s
+#5 sha256:0b22ec2d9b1a1a0e906e301b5ef08efe7774d5fc001b9cfa08e4e980152a0357 448B / 448B 0.2s done
+#5 sha256:2f2ab6e4eb4619f7b8506c38dc79c8adf77acffb7622bc15ceeabb0fbc73b8a1 0B / 1.25MB 0.3s
+#5 sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 0B / 48.62MB 0.2s
+#5 sha256:c83419f4430962505175b565eb8a24aafeaa4d441c0b22234e94c6e8160848ba 0B / 3.32kB 0.2s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 0B / 211.55MB 0.2s
+#5 sha256:2f2ab6e4eb4619f7b8506c38dc79c8adf77acffb7622bc15ceeabb0fbc73b8a1 1.25MB / 1.25MB 0.5s done
+#5 sha256:c83419f4430962505175b565eb8a24aafeaa4d441c0b22234e94c6e8160848ba 3.32kB / 3.32kB 0.7s done
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 0B / 64.40MB 0.2s
+#5 sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 6.69MB / 48.62MB 0.8s
+#5 sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 12.58MB / 48.62MB 0.9s
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 13.56MB / 64.40MB 0.5s
+#5 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 0B / 48.49MB 0.2s
+#5 sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 22.02MB / 48.62MB 1.1s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 14.68MB / 211.55MB 0.8s
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 23.07MB / 64.40MB 0.6s
+#5 sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 30.41MB / 48.62MB 1.2s
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 30.41MB / 64.40MB 0.8s
+#5 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 11.53MB / 48.49MB 0.5s
+#5 sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 39.85MB / 48.62MB 1.4s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 32.51MB / 211.55MB 1.1s
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 38.80MB / 64.40MB 0.9s
+#5 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 19.92MB / 48.49MB 0.6s
+#5 sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 48.62MB / 48.62MB 1.5s
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 47.19MB / 64.40MB 1.1s
+#5 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 27.26MB / 48.49MB 0.8s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 54.53MB / 211.55MB 1.5s
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 55.57MB / 64.40MB 1.2s
+#5 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 35.65MB / 48.49MB 0.9s
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 59.77MB / 64.40MB 1.4s
+#5 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 40.89MB / 48.49MB 1.1s
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 64.40MB / 64.40MB 1.5s
+#5 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 47.19MB / 48.49MB 1.2s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 66.06MB / 211.55MB 2.0s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 78.64MB / 211.55MB 2.1s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 93.32MB / 211.55MB 2.3s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 106.95MB / 211.55MB 2.4s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 122.68MB / 211.55MB 2.6s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 140.51MB / 211.55MB 2.7s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 159.38MB / 211.55MB 2.9s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 175.11MB / 211.55MB 3.0s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 188.74MB / 211.55MB 3.2s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 206.57MB / 211.55MB 3.3s
+#5 sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 48.62MB / 48.62MB 6.6s
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 64.40MB / 64.40MB 6.6s
+#5 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 48.49MB / 48.49MB 6.3s
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 211.55MB / 211.55MB 8.4s
+#5 sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 48.62MB / 48.62MB 9.1s done
+#5 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 211.55MB / 211.55MB 8.9s done
+#5 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 64.40MB / 64.40MB 8.6s done
+#5 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 48.49MB / 48.49MB 8.3s done
+#5 extracting sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00
+#5 sha256:e5203b2bfeff92b72e816dc6cbb1f16856f0cd592e521e3c0cfa195a78fe180e 0B / 24.04MB 0.2s
+#5 sha256:e5203b2bfeff92b72e816dc6cbb1f16856f0cd592e521e3c0cfa195a78fe180e 7.34MB / 24.04MB 0.3s
+#5 sha256:e5203b2bfeff92b72e816dc6cbb1f16856f0cd592e521e3c0cfa195a78fe180e 19.92MB / 24.04MB 0.5s
+#5 sha256:e5203b2bfeff92b72e816dc6cbb1f16856f0cd592e521e3c0cfa195a78fe180e 24.04MB / 24.04MB 0.6s
+#5 sha256:e5203b2bfeff92b72e816dc6cbb1f16856f0cd592e521e3c0cfa195a78fe180e 24.04MB / 24.04MB 1.3s done
+#5 extracting sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 2.5s done
+#5 DONE 11.8s
+
+#5 [1/4] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#5 extracting sha256:e5203b2bfeff92b72e816dc6cbb1f16856f0cd592e521e3c0cfa195a78fe180e
+#5 extracting sha256:e5203b2bfeff92b72e816dc6cbb1f16856f0cd592e521e3c0cfa195a78fe180e 0.7s done
+#5 DONE 12.5s
+
+#5 [1/4] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#5 extracting sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa
+#5 extracting sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 2.1s done
+#5 DONE 14.6s
+
+#5 [1/4] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#5 extracting sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9
+#5 extracting sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 23.3s done
+#5 DONE 37.8s
+
+#5 [1/4] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#5 extracting sha256:c83419f4430962505175b565eb8a24aafeaa4d441c0b22234e94c6e8160848ba 0.0s done
+#5 extracting sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0
+#5 extracting sha256:76e6b8204a89d20e7915fdc9a98ff33cb65fd7ce44ecf5a84b6cfca4bdb3d6d0 3.1s done
+#5 DONE 40.9s
+
+#5 [1/4] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#5 extracting sha256:2f2ab6e4eb4619f7b8506c38dc79c8adf77acffb7622bc15ceeabb0fbc73b8a1 0.1s done
+#5 extracting sha256:0b22ec2d9b1a1a0e906e301b5ef08efe7774d5fc001b9cfa08e4e980152a0357 0.0s done
+#5 DONE 41.1s
+
+#7 [2/4] WORKDIR /app
+#7 DONE 4.8s
+
+#8 [3/4] COPY . .
+#8 DONE 0.0s
+
+#9 [4/4] RUN apt-get update  && apt-get install -y --no-install-recommends build-essential python3 git  && npm install  && npm run build
+#9 0.324 Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+#9 0.339 Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+#9 0.340 Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [34.8 kB]
+#9 0.424 Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8790 kB]
+#9 0.585 Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6924 B]
+#9 0.691 Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [360 kB]
+#9 1.457 Fetched 9398 kB in 1s (8185 kB/s)
+#9 1.457 Reading package lists...
+#9 1.966 Reading package lists...
+#9 2.483 Building dependency tree...
+#9 2.610 Reading state information...
+#9 2.788 python3 is already the newest version (3.11.2-1+b1).
+#9 2.788 python3 set to manually installed.
+#9 2.788 git is already the newest version (1:2.39.5-0+deb12u3).
+#9 2.788 The following NEW packages will be installed:
+#9 2.789   build-essential
+#9 2.816 0 upgraded, 1 newly installed, 0 to remove and 107 not upgraded.
+#9 2.816 Need to get 7704 B of archives.
+#9 2.816 After this operation, 20.5 kB of additional disk space will be used.
+#9 2.816 Get:1 http://deb.debian.org/debian bookworm/main amd64 build-essential amd64 12.9 [7704 B]
+#9 3.159 debconf: delaying package configuration, since apt-utils is not installed
+#9 3.198 Fetched 7704 B in 0s (323 kB/s)
+#9 3.228 Selecting previously unselected package build-essential.
+#9 3.228 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23258 files and directories currently installed.)
+#9 3.267 Preparing to unpack .../build-essential_12.9_amd64.deb ...
+#9 3.273 Unpacking build-essential (12.9) ...
+#9 3.338 Setting up build-essential (12.9) ...
+#9 5.276 
+#9 5.276 added 82 packages, and audited 83 packages in 2s
+#9 5.277 
+#9 5.277 18 packages are looking for funding
+#9 5.277   run `npm fund` for details
+#9 5.278 
+#9 5.278 found 0 vulnerabilities
+#9 5.279 npm notice
+#9 5.279 npm notice New major version of npm available! 10.8.2 -> 12.2.1
+#9 5.279 npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+#9 5.279 npm notice To update run: npm install -g npm@12.2.1
+#9 5.279 npm notice
+#9 5.473 
+#9 5.473 > vlsc-s05-api@1.0.0 build
+#9 5.473 > tsc -p tsconfig.json
+#9 5.473 
+#9 DONE 8.5s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 2.0s done
+#10 exporting manifest sha256:0ce05b6fa9f2a9fe2a1162e147dc7ae2a1ddf1193cf55c4de172f8a607afce69 0.0s done
+#10 exporting config sha256:7f0ec3ac65fbda5d71c3aeb5594aedb127e1e4d28951602839e2e0b9fdb4587f 0.0s done
+#10 exporting attestation manifest sha256:f007285a4f041fbab60887e3afe1c95ed3d0b79cd4e79cb7b49e113aea9233d2 0.0s done
+#10 exporting manifest list sha256:b5f2a07faf6f1a46d7ea35558c87fc44764a613b87d895fd3679fefa1937d830 0.0s done
+#10 naming to docker.io/library/vlsc-s05:single done
+#10 unpacking to docker.io/library/vlsc-s05:single
+#10 unpacking to docker.io/library/vlsc-s05:single 32.1s done
+#10 DONE 34.3s
+
+real	1m31.358s
+user	0m0.240s
+sys	0m0.173s
+--- building MULTI-stage ---
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.48kB done
+#1 DONE 0.0s
+
+#2 resolve image config for docker-image://docker.io/docker/dockerfile:1.7
+#2 ...
+
+#3 [auth] docker/dockerfile:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 resolve image config for docker-image://docker.io/docker/dockerfile:1.7
+#2 DONE 3.9s
+
+#4 docker-image://docker.io/docker/dockerfile:1.7@sha256:a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e
+#4 resolve docker.io/docker/dockerfile:1.7@sha256:a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e 0.0s done
+#4 sha256:96918c57e42509b97f10c074d80672ecdbd3bb7dcd38c1bd95960cf291207416 0B / 11.98MB 0.2s
+#4 sha256:96918c57e42509b97f10c074d80672ecdbd3bb7dcd38c1bd95960cf291207416 10.49MB / 11.98MB 0.3s
+#4 sha256:96918c57e42509b97f10c074d80672ecdbd3bb7dcd38c1bd95960cf291207416 11.98MB / 11.98MB 0.5s
+#4 sha256:96918c57e42509b97f10c074d80672ecdbd3bb7dcd38c1bd95960cf291207416 11.98MB / 11.98MB 0.5s done
+#4 extracting sha256:96918c57e42509b97f10c074d80672ecdbd3bb7dcd38c1bd95960cf291207416
+#4 extracting sha256:96918c57e42509b97f10c074d80672ecdbd3bb7dcd38c1bd95960cf291207416 0.2s done
+#4 DONE 0.8s
+
+#5 [internal] load metadata for docker.io/library/node:20-alpine
+#5 DONE 0.8s
+
+#6 [auth] library/alpine:pull token for registry-1.docker.io
+#6 DONE 0.0s
+
+#7 [internal] load metadata for docker.io/library/alpine:3.20
+#7 DONE 5.5s
+
+#8 [internal] load .dockerignore
+#8 transferring context: 137B done
+#8 DONE 0.0s
+
+#9 [internal] load build context
+#9 transferring context: 219B done
+#9 DONE 0.1s
+
+#10 [runner 1/7] FROM docker.io/library/alpine:3.20@sha256:d9e853e87e55526f6b2917df91a2115c36dd7c696a35be12163d44e6e2a4b6bc
+#10 resolve docker.io/library/alpine:3.20@sha256:d9e853e87e55526f6b2917df91a2115c36dd7c696a35be12163d44e6e2a4b6bc 0.0s done
+#10 sha256:25f1d6b1951ac8eb3740558fe94cb83d377bdadf95fd9f98b50d2e1b96130471 0B / 3.63MB 0.2s
+#10 sha256:25f1d6b1951ac8eb3740558fe94cb83d377bdadf95fd9f98b50d2e1b96130471 3.63MB / 3.63MB 0.3s
+#10 sha256:25f1d6b1951ac8eb3740558fe94cb83d377bdadf95fd9f98b50d2e1b96130471 3.63MB / 3.63MB 0.4s done
+#10 extracting sha256:25f1d6b1951ac8eb3740558fe94cb83d377bdadf95fd9f98b50d2e1b96130471
+#10 extracting sha256:25f1d6b1951ac8eb3740558fe94cb83d377bdadf95fd9f98b50d2e1b96130471 0.3s done
+#10 DONE 0.7s
+
+#11 [builder 1/7] FROM docker.io/library/node:20-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293
+#11 resolve docker.io/library/node:20-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293 0.0s done
+#11 extracting sha256:6a0ac1617861a677b045b7ff88545213ec31c0ff08763195a70a4a5adda577bb 0.2s done
+#11 extracting sha256:4feea04c154301db6f4a496efa397b3db96603b1c009c797cfdde77bea8b3287
+#11 ...
+
+#12 [runner 2/7] RUN apk add --no-cache libstdc++  && addgroup -S app  && adduser -S -G app -H -s /sbin/nologin app
+#12 0.420 fetch https://dl-cdn.alpinelinux.org/alpine/v3.20/main/x86_64/APKINDEX.tar.gz
+#12 0.566 fetch https://dl-cdn.alpinelinux.org/alpine/v3.20/community/x86_64/APKINDEX.tar.gz
+#12 1.129 (1/2) Installing libgcc (13.2.1_git20240309-r1)
+#12 1.133 (2/2) Installing libstdc++ (13.2.1_git20240309-r1)
+#12 1.154 OK: 10 MiB in 16 packages
+#12 DONE 5.0s
+
+#11 [builder 1/7] FROM docker.io/library/node:20-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293
+#11 extracting sha256:4feea04c154301db6f4a496efa397b3db96603b1c009c797cfdde77bea8b3287 5.4s done
+#11 extracting sha256:b2cbbfe903b0821005780971ddc5892edcc4ce74c5a48d82e1d2b382edac3122 0.1s done
+#11 extracting sha256:fff4e2c1b189bf87d63ad8bd07f7f4eb288d6f2b6a07a8bb44c60e8c075d2096 0.0s done
+#11 DONE 5.9s
+
+#13 [builder 2/7] WORKDIR /app
+#13 DONE 0.2s
+
+#14 [builder 3/7] COPY package.json package-lock.json ./
+#14 DONE 0.1s
+
+#15 [builder 4/7] RUN npm ci
+#15 2.368 
+#15 2.368 added 82 packages, and audited 83 packages in 2s
+#15 2.368 
+#15 2.368 18 packages are looking for funding
+#15 2.368   run `npm fund` for details
+#15 2.370 
+#15 2.370 found 0 vulnerabilities
+#15 2.371 npm notice
+#15 2.371 npm notice New major version of npm available! 10.8.2 -> 12.2.1
+#15 2.371 npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+#15 2.371 npm notice To update run: npm install -g npm@12.2.1
+#15 2.371 npm notice
+#15 DONE 3.3s
+
+#16 [builder 5/7] COPY tsconfig.json ./
+#16 DONE 0.1s
+
+#17 [builder 6/7] COPY src ./src
+#17 DONE 0.0s
+
+#18 [builder 7/7] RUN npm run build  && npm prune --omit=dev  && npm cache clean --force
+#18 0.499 
+#18 0.499 > vlsc-s05-api@1.0.0 build
+#18 0.499 > tsc -p tsconfig.json
+#18 0.499 
+#18 4.115 
+#18 4.115 up to date, audited 69 packages in 922ms
+#18 4.116 
+#18 4.116 18 packages are looking for funding
+#18 4.116   run `npm fund` for details
+#18 4.118 
+#18 4.118 found 0 vulnerabilities
+#18 4.317 npm warn using --force Recommended protections disabled.
+#18 DONE 4.8s
+
+#19 [runner 3/7] COPY --from=builder /usr/local/bin/node /usr/local/bin/node
+#19 DONE 2.2s
+
+#20 [runner 4/7] WORKDIR /app
+#20 DONE 0.0s
+
+#21 [runner 5/7] COPY --from=builder --chown=app:app /app/package.json ./package.json
+#21 DONE 0.1s
+
+#22 [runner 6/7] COPY --from=builder --chown=app:app /app/node_modules ./node_modules
+#22 DONE 0.3s
+
+#23 [runner 7/7] COPY --from=builder --chown=app:app /app/dist ./dist
+#23 DONE 0.1s
+
+#24 exporting to image
+#24 exporting layers
+#24 exporting layers 3.1s done
+#24 exporting manifest sha256:318e810c25a040f99517febc844902598f06db8cc8f2fe2cd3b3e1b5af6808a6 0.0s done
+#24 exporting config sha256:7f9cfa3d92d3e07239e7c40de658ae10481b8bc93d2dc886127a9f66b13facd3 0.0s done
+#24 exporting attestation manifest sha256:08fff80d6434a9020b6219b56d03c82e83a53ebfc50c2e2262cd59c72d785011 0.0s done
+#24 exporting manifest list sha256:502d7ca87e445bb34622ec87b238a2fb230edb9f74ae23f1994a053b60b16456 0.0s done
+#24 naming to docker.io/library/vlsc-s05:multi done
+#24 unpacking to docker.io/library/vlsc-s05:multi
+#24 unpacking to docker.io/library/vlsc-s05:multi 1.0s done
+#24 DONE 4.2s
+
+real	0m32.622s
+user	0m0.179s
+sys	0m0.135s
+--- sizes ---
+TAG       SIZE      IMAGE ID
+multi     162MB     502d7ca87e44
+single    1.66GB    b5f2a07faf6f
+single_bytes=1663123926
+multi_bytes=162371106
+--- layer breakdown (multi) ---
+IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT
+502d7ca87e44   5 seconds ago    CMD ["node" "dist/server.js"]                   0B        buildkit.dockerfile.v0
+<missing>      5 seconds ago    HEALTHCHECK &{["CMD-SHELL" "node -e \"requir…   0B        buildkit.dockerfile.v0
+<missing>      5 seconds ago    EXPOSE map[3000/tcp:{}]                         0B        buildkit.dockerfile.v0
+<missing>      5 seconds ago    USER app                                        0B        buildkit.dockerfile.v0
+<missing>      5 seconds ago    COPY --chown=app:app /app/dist ./dist # buil…   16.4kB    buildkit.dockerfile.v0
+<missing>      5 seconds ago    COPY --chown=app:app /app/node_modules ./nod…   4.71MB    buildkit.dockerfile.v0
+<missing>      5 seconds ago    COPY --chown=app:app /app/package.json ./pac…   12.3kB    buildkit.dockerfile.v0
+<missing>      5 seconds ago    ENV NODE_ENV=production PORT=3000               0B        buildkit.dockerfile.v0
+<missing>      5 seconds ago    WORKDIR /app                                    8.19kB    buildkit.dockerfile.v0
+<missing>      5 seconds ago    COPY /usr/local/bin/node /usr/local/bin/node…   102MB     buildkit.dockerfile.v0
+<missing>      16 seconds ago   RUN |2 STUDENT_ID=UNSET SOURCE_URL= /bin/sh …   2.94MB    buildkit.dockerfile.v0
+<missing>      16 seconds ago   LABEL org.opencontainers.image.source= vlsc.…   0B        buildkit.dockerfile.v0
+<missing>      16 seconds ago   ARG SOURCE_URL=                                 0B        buildkit.dockerfile.v0
+<missing>      16 seconds ago   ARG STUDENT_ID=UNSET                            0B        buildkit.dockerfile.v0
+<missing>      6 months ago     CMD ["/bin/sh"]                                 0B        buildkit.dockerfile.v0
+<missing>      6 months ago     ADD alpine-minirootfs-3.20.10-x86_64.tar.gz …   8.47MB    buildkit.dockerfile.v0
+R = 10.2 (single=1663123926 B, multi=162371106 B)
+#1 DONE 0.0s
+#2 DONE 0.8s
+#3 CACHED
+#4 DONE 0.8s
+#5 DONE 0.8s
+#6 DONE 0.0s
+#7 DONE 0.1s
+#8 DONE 0.1s
+#9 DONE 0.0s
+#10 CACHED
+#11 CACHED
+#12 CACHED
+#13 CACHED
+#14 CACHED
+#15 CACHED
+#16 CACHED
+#17 CACHED
+#18 CACHED
+#19 CACHED
+#20 CACHED
+#21 CACHED
+#22 DONE 0.1s
+#1 DONE 0.0s
+#2 DONE 0.3s
+#3 CACHED
+#5 DONE 0.3s
+#4 DONE 0.6s
+#6 DONE 0.0s
+#7 DONE 0.0s
+#8 DONE 0.0s
+#9 DONE 0.0s
+#10 CACHED
+#11 CACHED
+#12 CACHED
+#13 CACHED
+#14 DONE 0.0s
+#15 DONE 4.6s
+#16 CACHED
+#17 CACHED
+#18 CACHED
+#19 CACHED
+#20 CACHED
+#21 DONE 0.0s
+#22 DONE 0.2s
