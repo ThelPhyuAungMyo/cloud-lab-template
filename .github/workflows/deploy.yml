@@ -109,7 +109,7 @@ jobs:
   package:
     name: CD - Build, Scan and Push Image
     needs: [lint, test, audit]
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-22.04
     timeout-minutes: 20
     permissions:
@@ -147,7 +147,7 @@ jobs:
           cache-to: type=gha,mode=max
 
       - name: Container vulnerability scan (Trivy, CRITICAL blocks)
-        uses: aquasecurity/trivy-action@0.28.0
+        uses: aquasecurity/trivy-action@0.35.0
         with:
           image-ref: ${{ steps.vars.outputs.image }}:${{ github.sha }}
           format: table
@@ -174,7 +174,7 @@ jobs:
   deploy:
     name: CD - Deploy to Render
     needs: package
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-22.04
     timeout-minutes: 10
     environment:
